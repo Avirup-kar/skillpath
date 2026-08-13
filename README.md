@@ -2,6 +2,10 @@
 
 A responsive Framer code component that loads a course catalog from the SkillPath assignment API. It includes search, price sorting, location-aware currency formatting, loading skeletons, and user-friendly empty and error states.
 
+## Live project
+
+[View the live SkillPath project](https://faithful-transportation-629759.framer.app/)
+
 ## Components
 
 - `CoursesSection.tsx` - fetches and validates course data, renders the catalog, and provides search and sorting controls.
