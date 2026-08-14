@@ -29,9 +29,9 @@ A responsive Framer code component that loads a course catalog from the SkillPat
 3. Create a second code component named `CoursesSection` and paste in the contents of `CoursesSection.tsx`.
 4. If necessary, replace the remote `CourseSkeleton` import near the top of `CoursesSection.tsx` with the URL from step 2.
 5. Add `CoursesSection` to a Framer page and give it the available page width.
-6. Customize **Card Background** and **Card Radius** from the Framer properties panel.
+6. Customize **Card Color** and **Card Radius** from the Framer properties panel.
 
-The section determines its own height from its content. Its inner content is centered and capped at `1120px` wide.
+The section fills the available width and determines its own height from its content.
 
 ## Data sources
 
@@ -46,11 +46,11 @@ Course prices are stored in the API's smallest currency units (`pricePaise` and 
 
 | Property | Type | Default | Range |
 | --- | --- | --- | --- |
-| Card Background | Color | `#F7F7F5` | N/A |
-| Card Radius | Number | `8px` | `0-32px` |
+| Card Color | Color | `#F7F7F5` | N/A |
+| Card Radius | Number | `8px` | `0-40px` |
 
 ## Notes
 
-- The component uses `Geist`, falling back to `Inter` and then the browser's sans-serif font.
+- The component uses `Inter`, falling back to the system and browser sans-serif fonts.
 - The API must remain available and permit browser requests from the published Framer site.
 - The current `CourseSkeleton` import in `CoursesSection.tsx` points to a published Framer module. Update it when publishing a new skeleton version.
